@@ -334,7 +334,7 @@ date,season,league_name,country,home_team,home_team_score,away_team_score,away_t
 2024-01-20T15:00:00+00:00,2023,Championship,England,Stoke City,1,2,Birmingham,Match Finished
 2024-01-19T20:00:00+00:00,2023,Championship,England,Sunderland,0,1,Hull City,Match Finished
 2024-01-20T12:30:00+00:00,2023,Championship,England,Swansea,1,3,Southampton,Match Finished
-2024-03-12T19:45:00+00:00,2023,Championship,England,Birmingham,,,Middlesbrough,Not Started
+2024-03-12T19:45:00+00:00,2023,Championship,England,Birmingham,0,1,Middlesbrough,Match Finished
 2024-02-20T19:45:00+00:00,2023,Championship,England,Cardiff,0,0,Blackburn,Match Finished
 2024-01-30T19:45:00+00:00,2023,Championship,England,Coventry,2,2,Bristol City,Match Finished
 2024-02-20T19:45:00+00:00,2023,Championship,England,Ipswich,4,3,Rotherham,Match Finished
@@ -405,149 +405,149 @@ date,season,league_name,country,home_team,home_team_score,away_team_score,away_t
 2024-02-24T15:00:00+00:00,2023,Championship,England,Southampton,1,2,Millwall,Match Finished
 2024-02-24T15:00:00+00:00,2023,Championship,England,Sunderland,1,2,Swansea,Match Finished
 2024-02-24T15:00:00+00:00,2023,Championship,England,Watford,1,2,Huddersfield,Match Finished
-2024-03-02T12:30:00+00:00,2023,Championship,England,Huddersfield,,,Leeds,Not Started
-2024-03-02T15:00:00+00:00,2023,Championship,England,Birmingham,,,Southampton,Not Started
-2024-03-02T12:30:00+00:00,2023,Championship,England,Bristol City,,,Cardiff,Not Started
-2024-03-02T15:00:00+00:00,2023,Championship,England,Leicester,,,QPR,Not Started
-2024-03-02T15:00:00+00:00,2023,Championship,England,Millwall,,,Watford,Not Started
-2024-03-02T15:00:00+00:00,2023,Championship,England,Norwich,,,Sunderland,Not Started
-2024-03-02T15:00:00+00:00,2023,Championship,England,Plymouth,,,Ipswich,Not Started
-2024-03-02T15:00:00+00:00,2023,Championship,England,Preston,,,Hull City,Not Started
-2024-03-02T15:00:00+00:00,2023,Championship,England,Rotherham,,,Sheffield Wednesday,Not Started
-2024-03-02T15:00:00+00:00,2023,Championship,England,Stoke City,,,Middlesbrough,Not Started
-2024-03-02T15:00:00+00:00,2023,Championship,England,Swansea,,,Blackburn,Not Started
-2024-03-01T20:00:00+00:00,2023,Championship,England,West Brom,,,Coventry,Not Started
-2024-03-05T19:45:00+00:00,2023,Championship,England,Blackburn,,,Millwall,Not Started
-2024-03-05T19:45:00+00:00,2023,Championship,England,Coventry,,,Rotherham,Not Started
-2024-03-05T19:45:00+00:00,2023,Championship,England,Hull City,,,Birmingham,Not Started
-2024-03-05T20:00:00+00:00,2023,Championship,England,Ipswich,,,Bristol City,Not Started
-2024-03-05T19:45:00+00:00,2023,Championship,England,Leeds,,,Stoke City,Not Started
-2024-03-05T19:45:00+00:00,2023,Championship,England,Sunderland,,,Leicester,Not Started
-2024-03-06T19:45:00+00:00,2023,Championship,England,Middlesbrough,,,Norwich,Not Started
-2024-03-06T20:00:00+00:00,2023,Championship,England,QPR,,,West Brom,Not Started
-2024-03-05T19:45:00+00:00,2023,Championship,England,Sheffield Wednesday,,,Plymouth,Not Started
-2024-03-06T19:45:00+00:00,2023,Championship,England,Southampton,,,Preston,Not Started
-2024-03-06T19:45:00+00:00,2023,Championship,England,Watford,,,Swansea,Not Started
-2024-03-09T15:00:00+00:00,2023,Championship,England,Blackburn,,,Plymouth,Not Started
-2024-03-09T12:30:00+00:00,2023,Championship,England,Cardiff,,,Ipswich,Not Started
-2024-03-10T12:00:00+00:00,2023,Championship,England,Huddersfield,,,West Brom,Not Started
-2024-03-09T15:00:00+00:00,2023,Championship,England,Hull City,,,Leicester,Not Started
-2024-03-09T15:00:00+00:00,2023,Championship,England,Millwall,,,Birmingham,Not Started
-2024-03-09T15:00:00+00:00,2023,Championship,England,Norwich,,,Rotherham,Not Started
-2024-03-09T15:00:00+00:00,2023,Championship,England,Preston,,,Stoke City,Not Started
-2024-03-09T15:00:00+00:00,2023,Championship,England,QPR,,,Middlesbrough,Not Started
-2024-03-08T20:00:00+00:00,2023,Championship,England,Sheffield Wednesday,,,Leeds,Not Started
-2024-03-09T15:00:00+00:00,2023,Championship,England,Southampton,,,Sunderland,Not Started
-2024-03-09T15:00:00+00:00,2023,Championship,England,Watford,,,Coventry,Not Started
-2024-03-10T12:30:00+00:00,2023,Championship,England,Bristol City,,,Swansea,Not Started
-2024-03-16T15:00:00+00:00,2023,Championship,England,Birmingham,,,Watford,Not Started
-2024-03-16T15:00:00+00:00,2023,Championship,England,Coventry,,,Hull City,Not Started
-2024-03-16T15:00:00+00:00,2023,Championship,England,Ipswich,,,Sheffield Wednesday,Not Started
-2024-03-17T15:00:00+00:00,2023,Championship,England,Leeds,,,Millwall,Not Started
-2024-03-15T20:00:00+00:00,2023,Championship,England,Leicester,,,Southampton,Not Started
-2024-03-16T15:00:00+00:00,2023,Championship,England,Middlesbrough,,,Blackburn,Not Started
-2024-03-16T15:00:00+00:00,2023,Championship,England,Plymouth,,,Preston,Not Started
-2024-03-16T15:00:00+00:00,2023,Championship,England,Rotherham,,,Huddersfield,Not Started
-2024-03-16T15:00:00+00:00,2023,Championship,England,Stoke City,,,Norwich,Not Started
-2024-03-16T15:00:00+00:00,2023,Championship,England,Sunderland,,,QPR,Not Started
-2024-03-16T12:30:00+00:00,2023,Championship,England,Swansea,,,Cardiff,Not Started
-2024-03-16T15:00:00+00:00,2023,Championship,England,West Brom,,,Bristol City,Not Started
-2024-03-29T12:00:00+00:00,2023,Championship,England,Millwall,,,West Brom,Not Started
-2024-03-29T14:00:00+00:00,2023,Championship,England,Blackburn,,,Ipswich,Not Started
-2024-03-29T11:30:00+00:00,2023,Championship,England,Bristol City,,,Leicester,Not Started
-2024-03-29T14:00:00+00:00,2023,Championship,England,Cardiff,,,Sunderland,Not Started
-2024-03-29T14:00:00+00:00,2023,Championship,England,Huddersfield,,,Coventry,Not Started
-2024-03-29T14:00:00+00:00,2023,Championship,England,Hull City,,,Stoke City,Not Started
-2024-03-29T14:00:00+00:00,2023,Championship,England,Norwich,,,Plymouth,Not Started
-2024-03-29T14:00:00+00:00,2023,Championship,England,Preston,,,Rotherham,Not Started
-2024-03-29T14:00:00+00:00,2023,Championship,England,QPR,,,Birmingham,Not Started
-2024-03-29T14:00:00+00:00,2023,Championship,England,Sheffield Wednesday,,,Swansea,Not Started
-2024-03-29T14:00:00+00:00,2023,Championship,England,Southampton,,,Middlesbrough,Not Started
-2024-03-29T14:00:00+00:00,2023,Championship,England,Watford,,,Leeds,Not Started
-2024-04-01T14:00:00+00:00,2023,Championship,England,Birmingham,,,Preston,Not Started
-2024-04-01T14:00:00+00:00,2023,Championship,England,Coventry,,,Cardiff,Not Started
-2024-04-01T14:00:00+00:00,2023,Championship,England,Ipswich,,,Southampton,Not Started
-2024-04-01T14:00:00+00:00,2023,Championship,England,Leeds,,,Hull City,Not Started
-2024-04-01T14:00:00+00:00,2023,Championship,England,Leicester,,,Norwich,Not Started
-2024-04-01T14:00:00+00:00,2023,Championship,England,Middlesbrough,,,Sheffield Wednesday,Not Started
-2024-04-01T14:00:00+00:00,2023,Championship,England,Plymouth,,,Bristol City,Not Started
-2024-04-01T14:00:00+00:00,2023,Championship,England,Rotherham,,,Millwall,Not Started
-2024-04-01T14:00:00+00:00,2023,Championship,England,Stoke City,,,Huddersfield,Not Started
-2024-04-01T14:00:00+00:00,2023,Championship,England,Sunderland,,,Blackburn,Not Started
-2024-04-01T14:00:00+00:00,2023,Championship,England,Swansea,,,QPR,Not Started
-2024-04-01T14:00:00+00:00,2023,Championship,England,West Brom,,,Watford,Not Started
-2024-04-06T14:00:00+00:00,2023,Championship,England,Blackburn,,,Southampton,Not Started
-2024-04-06T14:00:00+00:00,2023,Championship,England,Cardiff,,,Hull City,Not Started
-2024-04-06T14:00:00+00:00,2023,Championship,England,Coventry,,,Leeds,Not Started
-2024-04-06T14:00:00+00:00,2023,Championship,England,Huddersfield,,,Millwall,Not Started
-2024-04-06T14:00:00+00:00,2023,Championship,England,Leicester,,,Birmingham,Not Started
-2024-04-06T14:00:00+00:00,2023,Championship,England,Middlesbrough,,,Swansea,Not Started
-2024-04-06T14:00:00+00:00,2023,Championship,England,Norwich,,,Ipswich,Not Started
-2024-04-06T14:00:00+00:00,2023,Championship,England,QPR,,,Sheffield Wednesday,Not Started
-2024-04-06T14:00:00+00:00,2023,Championship,England,Rotherham,,,Plymouth,Not Started
-2024-04-06T14:00:00+00:00,2023,Championship,England,Stoke City,,,West Brom,Not Started
-2024-04-06T14:00:00+00:00,2023,Championship,England,Sunderland,,,Bristol City,Not Started
-2024-04-06T14:00:00+00:00,2023,Championship,England,Watford,,,Preston,Not Started
-2024-04-09T18:45:00+00:00,2023,Championship,England,Leeds,,,Sunderland,Not Started
-2024-04-09T18:45:00+00:00,2023,Championship,England,Millwall,,,Leicester,Not Started
-2024-04-09T18:45:00+00:00,2023,Championship,England,Plymouth,,,QPR,Not Started
-2024-04-09T18:45:00+00:00,2023,Championship,England,Preston,,,Huddersfield,Not Started
-2024-04-09T18:45:00+00:00,2023,Championship,England,Sheffield Wednesday,,,Norwich,Not Started
-2024-04-09T18:45:00+00:00,2023,Championship,England,Southampton,,,Coventry,Not Started
-2024-04-10T18:45:00+00:00,2023,Championship,England,Birmingham,,,Cardiff,Not Started
-2024-04-10T18:45:00+00:00,2023,Championship,England,Bristol City,,,Blackburn,Not Started
-2024-04-10T18:45:00+00:00,2023,Championship,England,Hull City,,,Middlesbrough,Not Started
-2024-04-10T18:45:00+00:00,2023,Championship,England,Ipswich,,,Watford,Not Started
-2024-04-10T18:45:00+00:00,2023,Championship,England,Swansea,,,Stoke City,Not Started
-2024-04-10T19:00:00+00:00,2023,Championship,England,West Brom,,,Rotherham,Not Started
-2024-04-13T14:00:00+00:00,2023,Championship,England,Birmingham,,,Coventry,Not Started
-2024-04-13T14:00:00+00:00,2023,Championship,England,Bristol City,,,Huddersfield,Not Started
-2024-04-13T14:00:00+00:00,2023,Championship,England,Hull City,,,QPR,Not Started
-2024-04-13T14:00:00+00:00,2023,Championship,England,Ipswich,,,Middlesbrough,Not Started
-2024-04-13T14:00:00+00:00,2023,Championship,England,Leeds,,,Blackburn,Not Started
-2024-04-13T14:00:00+00:00,2023,Championship,England,Millwall,,,Cardiff,Not Started
-2024-04-13T14:00:00+00:00,2023,Championship,England,Plymouth,,,Leicester,Not Started
-2024-04-13T14:00:00+00:00,2023,Championship,England,Preston,,,Norwich,Not Started
-2024-04-13T14:00:00+00:00,2023,Championship,England,Sheffield Wednesday,,,Stoke City,Not Started
-2024-04-13T14:00:00+00:00,2023,Championship,England,Southampton,,,Watford,Not Started
-2024-04-13T14:00:00+00:00,2023,Championship,England,Swansea,,,Rotherham,Not Started
-2024-04-13T14:00:00+00:00,2023,Championship,England,West Brom,,,Sunderland,Not Started
-2024-04-20T14:00:00+00:00,2023,Championship,England,Blackburn,,,Sheffield Wednesday,Not Started
-2024-04-20T14:00:00+00:00,2023,Championship,England,Cardiff,,,Southampton,Not Started
-2024-04-20T14:00:00+00:00,2023,Championship,England,Coventry,,,Ipswich,Not Started
-2024-04-20T14:00:00+00:00,2023,Championship,England,Huddersfield,,,Swansea,Not Started
-2024-04-20T14:00:00+00:00,2023,Championship,England,Leicester,,,West Brom,Not Started
-2024-04-20T14:00:00+00:00,2023,Championship,England,Middlesbrough,,,Leeds,Not Started
-2024-04-20T14:00:00+00:00,2023,Championship,England,Norwich,,,Bristol City,Not Started
-2024-04-20T14:00:00+00:00,2023,Championship,England,QPR,,,Preston,Not Started
-2024-04-20T14:00:00+00:00,2023,Championship,England,Rotherham,,,Birmingham,Not Started
-2024-04-20T14:00:00+00:00,2023,Championship,England,Stoke City,,,Plymouth,Not Started
-2024-04-20T14:00:00+00:00,2023,Championship,England,Sunderland,,,Millwall,Not Started
-2024-04-20T14:00:00+00:00,2023,Championship,England,Watford,,,Hull City,Not Started
-2024-04-27T14:00:00+00:00,2023,Championship,England,Blackburn,,,Coventry,Not Started
-2024-04-27T14:00:00+00:00,2023,Championship,England,Bristol City,,,Rotherham,Not Started
-2024-04-27T14:00:00+00:00,2023,Championship,England,Cardiff,,,Middlesbrough,Not Started
-2024-04-27T14:00:00+00:00,2023,Championship,England,Huddersfield,,,Birmingham,Not Started
-2024-04-27T14:00:00+00:00,2023,Championship,England,Hull City,,,Ipswich,Not Started
-2024-04-27T14:00:00+00:00,2023,Championship,England,Millwall,,,Plymouth,Not Started
-2024-04-27T14:00:00+00:00,2023,Championship,England,Preston,,,Leicester,Not Started
-2024-04-27T14:00:00+00:00,2023,Championship,England,QPR,,,Leeds,Not Started
-2024-04-27T14:00:00+00:00,2023,Championship,England,Sheffield Wednesday,,,West Brom,Not Started
-2024-04-27T14:00:00+00:00,2023,Championship,England,Southampton,,,Stoke City,Not Started
-2024-04-27T14:00:00+00:00,2023,Championship,England,Watford,,,Sunderland,Not Started
-2024-05-04T14:00:00+00:00,2023,Championship,England,Birmingham,,,Norwich,Not Started
-2024-05-04T14:00:00+00:00,2023,Championship,England,Coventry,,,QPR,Not Started
-2024-05-04T14:00:00+00:00,2023,Championship,England,Ipswich,,,Huddersfield,Not Started
-2024-05-04T14:00:00+00:00,2023,Championship,England,Leeds,,,Southampton,Not Started
-2024-05-04T14:00:00+00:00,2023,Championship,England,Leicester,,,Blackburn,Not Started
-2024-05-04T14:00:00+00:00,2023,Championship,England,Middlesbrough,,,Watford,Not Started
-2024-05-04T14:00:00+00:00,2023,Championship,England,Plymouth,,,Hull City,Not Started
-2024-05-04T14:00:00+00:00,2023,Championship,England,Rotherham,,,Cardiff,Not Started
-2024-05-04T14:00:00+00:00,2023,Championship,England,Stoke City,,,Bristol City,Not Started
-2024-05-04T14:00:00+00:00,2023,Championship,England,Sunderland,,,Sheffield Wednesday,Not Started
-2024-05-04T14:00:00+00:00,2023,Championship,England,Swansea,,,Millwall,Not Started
-2024-05-04T14:00:00+00:00,2023,Championship,England,West Brom,,,Preston,Not Started
+2024-03-02T12:30:00+00:00,2023,Championship,England,Huddersfield,1,1,Leeds,Match Finished
+2024-03-02T15:00:00+00:00,2023,Championship,England,Birmingham,3,4,Southampton,Match Finished
+2024-03-02T12:30:00+00:00,2023,Championship,England,Bristol City,0,1,Cardiff,Match Finished
+2024-03-02T15:00:00+00:00,2023,Championship,England,Leicester,1,2,QPR,Match Finished
+2024-03-02T15:00:00+00:00,2023,Championship,England,Millwall,1,0,Watford,Match Finished
+2024-03-02T15:00:00+00:00,2023,Championship,England,Norwich,1,0,Sunderland,Match Finished
+2024-03-02T15:00:00+00:00,2023,Championship,England,Plymouth,0,2,Ipswich,Match Finished
+2024-03-02T15:00:00+00:00,2023,Championship,England,Preston,0,0,Hull City,Match Finished
+2024-03-02T15:00:00+00:00,2023,Championship,England,Rotherham,0,1,Sheffield Wednesday,Match Finished
+2024-03-02T15:00:00+00:00,2023,Championship,England,Stoke City,2,0,Middlesbrough,Match Finished
+2024-03-02T15:00:00+00:00,2023,Championship,England,Swansea,2,1,Blackburn,Match Finished
+2024-03-01T20:00:00+00:00,2023,Championship,England,West Brom,2,1,Coventry,Match Finished
+2024-03-05T19:45:00+00:00,2023,Championship,England,Blackburn,1,1,Millwall,Match Finished
+2024-03-05T19:45:00+00:00,2023,Championship,England,Coventry,5,0,Rotherham,Match Finished
+2024-03-05T19:45:00+00:00,2023,Championship,England,Hull City,1,1,Birmingham,Match Finished
+2024-03-05T20:00:00+00:00,2023,Championship,England,Ipswich,3,2,Bristol City,Match Finished
+2024-03-05T19:45:00+00:00,2023,Championship,England,Leeds,1,0,Stoke City,Match Finished
+2024-03-05T19:45:00+00:00,2023,Championship,England,Sunderland,0,1,Leicester,Match Finished
+2024-03-06T19:45:00+00:00,2023,Championship,England,Middlesbrough,3,1,Norwich,Match Finished
+2024-03-06T20:00:00+00:00,2023,Championship,England,QPR,2,2,West Brom,Match Finished
+2024-03-05T19:45:00+00:00,2023,Championship,England,Sheffield Wednesday,1,0,Plymouth,Match Finished
+2024-04-16T19:00:00+00:00,2023,Championship,England,Southampton,3,0,Preston,Match Finished
+2024-03-06T19:45:00+00:00,2023,Championship,England,Watford,1,1,Swansea,Match Finished
+2024-03-09T15:00:00+00:00,2023,Championship,England,Blackburn,1,1,Plymouth,Match Finished
+2024-03-09T12:30:00+00:00,2023,Championship,England,Cardiff,2,1,Ipswich,Match Finished
+2024-03-10T12:00:00+00:00,2023,Championship,England,Huddersfield,1,4,West Brom,Match Finished
+2024-03-09T15:00:00+00:00,2023,Championship,England,Hull City,2,2,Leicester,Match Finished
+2024-03-09T15:00:00+00:00,2023,Championship,England,Millwall,1,0,Birmingham,Match Finished
+2024-03-09T15:00:00+00:00,2023,Championship,England,Norwich,5,0,Rotherham,Match Finished
+2024-03-09T15:00:00+00:00,2023,Championship,England,Preston,1,2,Stoke City,Match Finished
+2024-03-09T15:00:00+00:00,2023,Championship,England,QPR,0,2,Middlesbrough,Match Finished
+2024-03-08T20:00:00+00:00,2023,Championship,England,Sheffield Wednesday,0,2,Leeds,Match Finished
+2024-03-09T15:00:00+00:00,2023,Championship,England,Southampton,4,2,Sunderland,Match Finished
+2024-03-09T15:00:00+00:00,2023,Championship,England,Watford,1,2,Coventry,Match Finished
+2024-03-10T12:30:00+00:00,2023,Championship,England,Bristol City,1,0,Swansea,Match Finished
+2024-03-16T15:00:00+00:00,2023,Championship,England,Birmingham,0,1,Watford,Match Finished
+2024-04-24T18:45:00+00:00,2023,Championship,England,Coventry,2,3,Hull City,Match Finished
+2024-03-16T15:00:00+00:00,2023,Championship,England,Ipswich,6,0,Sheffield Wednesday,Match Finished
+2024-03-17T15:00:00+00:00,2023,Championship,England,Leeds,2,0,Millwall,Match Finished
+2024-04-23T19:00:00+00:00,2023,Championship,England,Leicester,5,0,Southampton,Match Finished
+2024-03-16T15:00:00+00:00,2023,Championship,England,Middlesbrough,0,0,Blackburn,Match Finished
+2024-03-16T15:00:00+00:00,2023,Championship,England,Plymouth,0,1,Preston,Match Finished
+2024-03-16T15:00:00+00:00,2023,Championship,England,Rotherham,0,0,Huddersfield,Match Finished
+2024-03-16T15:00:00+00:00,2023,Championship,England,Stoke City,0,3,Norwich,Match Finished
+2024-03-16T15:00:00+00:00,2023,Championship,England,Sunderland,0,0,QPR,Match Finished
+2024-03-16T12:30:00+00:00,2023,Championship,England,Swansea,2,0,Cardiff,Match Finished
+2024-03-16T15:00:00+00:00,2023,Championship,England,West Brom,2,0,Bristol City,Match Finished
+2024-03-29T13:00:00+00:00,2023,Championship,England,Millwall,1,1,West Brom,Match Finished
+2024-03-29T17:30:00+00:00,2023,Championship,England,Blackburn,0,1,Ipswich,Match Finished
+2024-03-29T12:30:00+00:00,2023,Championship,England,Bristol City,1,0,Leicester,Match Finished
+2024-03-29T15:00:00+00:00,2023,Championship,England,Cardiff,0,2,Sunderland,Match Finished
+2024-03-29T15:00:00+00:00,2023,Championship,England,Huddersfield,1,3,Coventry,Match Finished
+2024-03-29T15:00:00+00:00,2023,Championship,England,Hull City,0,2,Stoke City,Match Finished
+2024-03-29T15:00:00+00:00,2023,Championship,England,Norwich,2,1,Plymouth,Match Finished
+2024-03-29T15:00:00+00:00,2023,Championship,England,Preston,3,0,Rotherham,Match Finished
+2024-03-29T15:00:00+00:00,2023,Championship,England,QPR,2,1,Birmingham,Match Finished
+2024-03-29T15:00:00+00:00,2023,Championship,England,Sheffield Wednesday,1,1,Swansea,Match Finished
+2024-03-29T15:00:00+00:00,2023,Championship,England,Southampton,1,1,Middlesbrough,Match Finished
+2024-03-29T20:00:00+00:00,2023,Championship,England,Watford,2,2,Leeds,Match Finished
+2024-04-01T14:00:00+00:00,2023,Championship,England,Birmingham,1,0,Preston,Match Finished
+2024-04-01T14:00:00+00:00,2023,Championship,England,Coventry,1,2,Cardiff,Match Finished
+2024-04-01T16:30:00+00:00,2023,Championship,England,Ipswich,3,2,Southampton,Match Finished
+2024-04-01T19:00:00+00:00,2023,Championship,England,Leeds,3,1,Hull City,Match Finished
+2024-04-01T11:30:00+00:00,2023,Championship,England,Leicester,3,1,Norwich,Match Finished
+2024-04-01T14:00:00+00:00,2023,Championship,England,Middlesbrough,2,0,Sheffield Wednesday,Match Finished
+2024-04-01T14:00:00+00:00,2023,Championship,England,Plymouth,0,1,Bristol City,Match Finished
+2024-04-01T14:00:00+00:00,2023,Championship,England,Rotherham,2,1,Millwall,Match Finished
+2024-04-01T14:00:00+00:00,2023,Championship,England,Stoke City,1,1,Huddersfield,Match Finished
+2024-04-01T14:00:00+00:00,2023,Championship,England,Sunderland,1,5,Blackburn,Match Finished
+2024-04-01T14:00:00+00:00,2023,Championship,England,Swansea,0,1,QPR,Match Finished
+2024-04-01T14:00:00+00:00,2023,Championship,England,West Brom,2,2,Watford,Match Finished
+2024-04-06T14:00:00+00:00,2023,Championship,England,Blackburn,0,0,Southampton,Match Finished
+2024-04-06T14:00:00+00:00,2023,Championship,England,Cardiff,1,3,Hull City,Match Finished
+2024-04-06T14:00:00+00:00,2023,Championship,England,Coventry,2,1,Leeds,Match Finished
+2024-04-06T14:00:00+00:00,2023,Championship,England,Huddersfield,1,0,Millwall,Match Finished
+2024-04-06T14:00:00+00:00,2023,Championship,England,Leicester,2,1,Birmingham,Match Finished
+2024-04-06T14:00:00+00:00,2023,Championship,England,Middlesbrough,2,0,Swansea,Match Finished
+2024-04-06T11:30:00+00:00,2023,Championship,England,Norwich,1,0,Ipswich,Match Finished
+2024-04-06T14:00:00+00:00,2023,Championship,England,QPR,0,2,Sheffield Wednesday,Match Finished
+2024-04-05T19:00:00+00:00,2023,Championship,England,Rotherham,0,1,Plymouth,Match Finished
+2024-04-06T14:00:00+00:00,2023,Championship,England,Stoke City,2,2,West Brom,Match Finished
+2024-04-06T14:00:00+00:00,2023,Championship,England,Sunderland,0,0,Bristol City,Match Finished
+2024-04-06T14:00:00+00:00,2023,Championship,England,Watford,0,0,Preston,Match Finished
+2024-04-09T19:00:00+00:00,2023,Championship,England,Leeds,0,0,Sunderland,Match Finished
+2024-04-09T18:45:00+00:00,2023,Championship,England,Millwall,1,0,Leicester,Match Finished
+2024-04-09T18:45:00+00:00,2023,Championship,England,Plymouth,1,1,QPR,Match Finished
+2024-04-09T18:45:00+00:00,2023,Championship,England,Preston,4,1,Huddersfield,Match Finished
+2024-04-09T18:45:00+00:00,2023,Championship,England,Sheffield Wednesday,2,2,Norwich,Match Finished
+2024-04-09T18:45:00+00:00,2023,Championship,England,Southampton,2,1,Coventry,Match Finished
+2024-04-10T18:45:00+00:00,2023,Championship,England,Birmingham,0,1,Cardiff,Match Finished
+2024-04-10T18:45:00+00:00,2023,Championship,England,Bristol City,5,0,Blackburn,Match Finished
+2024-04-10T18:45:00+00:00,2023,Championship,England,Hull City,2,2,Middlesbrough,Match Finished
+2024-04-10T18:45:00+00:00,2023,Championship,England,Ipswich,0,0,Watford,Match Finished
+2024-04-10T19:00:00+00:00,2023,Championship,England,Swansea,3,0,Stoke City,Match Finished
+2024-04-10T19:00:00+00:00,2023,Championship,England,West Brom,2,0,Rotherham,Match Finished
+2024-04-13T14:00:00+00:00,2023,Championship,England,Birmingham,3,0,Coventry,Match Finished
+2024-04-13T14:00:00+00:00,2023,Championship,England,Bristol City,1,1,Huddersfield,Match Finished
+2024-04-13T14:00:00+00:00,2023,Championship,England,Hull City,3,0,QPR,Match Finished
+2024-04-13T14:00:00+00:00,2023,Championship,England,Ipswich,1,1,Middlesbrough,Match Finished
+2024-04-13T11:30:00+00:00,2023,Championship,England,Leeds,0,1,Blackburn,Match Finished
+2024-04-13T14:00:00+00:00,2023,Championship,England,Millwall,3,1,Cardiff,Match Finished
+2024-04-12T19:00:00+00:00,2023,Championship,England,Plymouth,1,0,Leicester,Match Finished
+2024-04-13T14:00:00+00:00,2023,Championship,England,Preston,0,1,Norwich,Match Finished
+2024-04-13T14:00:00+00:00,2023,Championship,England,Sheffield Wednesday,1,1,Stoke City,Match Finished
+2024-04-13T14:00:00+00:00,2023,Championship,England,Southampton,3,2,Watford,Match Finished
+2024-04-13T14:00:00+00:00,2023,Championship,England,Swansea,1,0,Rotherham,Match Finished
+2024-04-13T14:00:00+00:00,2023,Championship,England,West Brom,0,1,Sunderland,Match Finished
+2024-04-21T11:30:00+00:00,2023,Championship,England,Blackburn,1,3,Sheffield Wednesday,Match Finished
+2024-04-20T14:00:00+00:00,2023,Championship,England,Cardiff,2,1,Southampton,Match Finished
+2024-04-30T19:00:00+00:00,2023,Championship,England,Coventry,,,Ipswich,Not Started
+2024-04-20T14:00:00+00:00,2023,Championship,England,Huddersfield,0,4,Swansea,Match Finished
+2024-04-20T11:30:00+00:00,2023,Championship,England,Leicester,2,1,West Brom,Match Finished
+2024-04-22T19:00:00+00:00,2023,Championship,England,Middlesbrough,3,4,Leeds,Match Finished
+2024-04-20T14:00:00+00:00,2023,Championship,England,Norwich,1,1,Bristol City,Match Finished
+2024-04-20T16:15:00+00:00,2023,Championship,England,QPR,1,0,Preston,Match Finished
+2024-04-20T14:00:00+00:00,2023,Championship,England,Rotherham,0,0,Birmingham,Match Finished
+2024-04-20T14:00:00+00:00,2023,Championship,England,Stoke City,3,0,Plymouth,Match Finished
+2024-04-20T14:00:00+00:00,2023,Championship,England,Sunderland,0,1,Millwall,Match Finished
+2024-04-20T14:00:00+00:00,2023,Championship,England,Watford,0,0,Hull City,Match Finished
+2024-04-27T14:00:00+00:00,2023,Championship,England,Blackburn,0,0,Coventry,Match Finished
+2024-04-27T14:00:00+00:00,2023,Championship,England,Bristol City,2,0,Rotherham,Match Finished
+2024-04-27T14:00:00+00:00,2023,Championship,England,Cardiff,1,4,Middlesbrough,Match Finished
+2024-04-27T14:00:00+00:00,2023,Championship,England,Huddersfield,1,1,Birmingham,Match Finished
+2024-04-27T19:00:00+00:00,2023,Championship,England,Hull City,3,3,Ipswich,Match Finished
+2024-04-27T14:00:00+00:00,2023,Championship,England,Millwall,1,0,Plymouth,Match Finished
+2024-04-29T19:00:00+00:00,2023,Championship,England,Preston,,,Leicester,Not Started
+2024-04-26T19:00:00+00:00,2023,Championship,England,QPR,4,0,Leeds,Match Finished
+2024-04-27T14:00:00+00:00,2023,Championship,England,Sheffield Wednesday,3,0,West Brom,Match Finished
+2024-04-27T14:00:00+00:00,2023,Championship,England,Southampton,0,1,Stoke City,Match Finished
+2024-04-27T14:00:00+00:00,2023,Championship,England,Watford,1,0,Sunderland,Match Finished
+2024-05-04T11:30:00+00:00,2023,Championship,England,Birmingham,,,Norwich,Not Started
+2024-05-04T11:30:00+00:00,2023,Championship,England,Coventry,,,QPR,Not Started
+2024-05-04T11:30:00+00:00,2023,Championship,England,Ipswich,,,Huddersfield,Not Started
+2024-05-04T11:30:00+00:00,2023,Championship,England,Leeds,,,Southampton,Not Started
+2024-05-04T11:30:00+00:00,2023,Championship,England,Leicester,,,Blackburn,Not Started
+2024-05-04T11:30:00+00:00,2023,Championship,England,Middlesbrough,,,Watford,Not Started
+2024-05-04T11:30:00+00:00,2023,Championship,England,Plymouth,,,Hull City,Not Started
+2024-05-04T11:30:00+00:00,2023,Championship,England,Rotherham,,,Cardiff,Not Started
+2024-05-04T11:30:00+00:00,2023,Championship,England,Stoke City,,,Bristol City,Not Started
+2024-05-04T11:30:00+00:00,2023,Championship,England,Sunderland,,,Sheffield Wednesday,Not Started
+2024-05-04T11:30:00+00:00,2023,Championship,England,Swansea,,,Millwall,Not Started
+2024-05-04T11:30:00+00:00,2023,Championship,England,West Brom,,,Preston,Not Started
 2023-10-07T14:00:00+00:00,2023,Championship,England,Cardiff,1,1,Watford,Match Finished
 2024-01-30T19:45:00+00:00,2023,Championship,England,Leicester,3,1,Swansea,Match Finished
-2024-03-06T19:45:00+00:00,2023,Championship,England,Cardiff,,,Huddersfield,Not Started
-2024-04-27T14:00:00+00:00,2023,Championship,England,Norwich,,,Swansea,Not Started
+2024-03-06T19:45:00+00:00,2023,Championship,England,Cardiff,1,0,Huddersfield,Match Finished
+2024-04-27T14:00:00+00:00,2023,Championship,England,Norwich,2,2,Swansea,Match Finished
