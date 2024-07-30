@@ -27,18 +27,25 @@ FIXTURES_DATA_PATH = (
 )
 
 FIXTURES_DATA_FOLDER = (
-    f"{os.environ['AIRFLOW_HOME']}/include/fixtures_data_test/"
+    f"{os.environ['AIRFLOW_HOME']}/include/fixtures_data/"
 )
 
 RESULTS_DATA_PATH = (
     f"{os.environ['AIRFLOW_HOME']}/include/results/"
 )
 
+TEMP = (
+    f"{os.environ['AIRFLOW_HOME']}/include/fixtures_data/all_fixtures_combined.csv"
+)
+
+DB = (
+    f"{os.environ['AIRFLOW_HOME']}/include/dwh" # when changing this value also change the db name in .env
+)
 # DuckDB config
 DUCKDB_INSTANCE_NAME = json.loads(os.environ["AIRFLOW_CONN_DUCKDB_DEFAULT"])["host"]
 FIXTURES_IN_TABLE_NAME = "in_fixtures"
-REPORTING_TABLE_NAME_1 = "reporting_table_1"
-REPORTING_TABLE_NAME_2 = "reporting_table_2"
+REPORTING_TABLE_NAME = "reporting_table"
+# REPORTING_TABLE_NAME_2 = "reporting_table_2"
 CONN_ID_DUCKDB = "duckdb_default"
 
 # Datasets
@@ -54,20 +61,21 @@ DS_INGEST = Dataset("ingest")
 # API_KEY = Variable.get("API_KEY")
 # API_HOST = Variable.get("API_HOST")
 
-API_ENDPOINT = "https://api-football-v1.p.rapidapi.com/v3/fixtures"
+API_ENDPOINT_1 = "https://api-football-v1.p.rapidapi.com/v3/fixtures"
+API_ENDPOINT_2 = "https://api-football-v1.p.rapidapi.com/v3/fixtures/statistics"
 API_KEY = "8feeed635dmshbab9080dc4f248bp112d75jsn9661eab3597b"
 API_HOST = "api-football-v1.p.rapidapi.com"
 
 # LEAGUE IDS
-LEAGUE_IDS = [39, 40,
-              41, 42, 43, 50, 51, 59, 60,
-             78, 79, 83, 84, 85, 86, 61, 62, 135, 136,
-             88, 89, 106, 107,  144, 283, 94, 95, 96,
-             140, 141, 142, 876, 435, 436, 210, 318, 345,
-             203, 204, 271, 272, 235, 373, 307, 308, 301, 303,
-             207, 208, 179, 180, 183, 184,
-            305, 233, 290, 218, 219, 419, 172,
-             119, 120, 236, 288, 128, 129, 134, 71, 72, 383, 382
+LEAGUE_IDS = [39, 106,
+            #   41, 42, 43, 50, 51, 59, 60,
+            #  78, 79, 83, 84, 85, 86, 61, 62, 135, 136,
+            #  88, 89, 106, 107,  144, 283, 94, 95, 96,
+            #  140, 141, 142, 876, 435, 436, 210, 318, 345,
+            #  203, 204, 271, 272, 235, 373, 307, 308, 301, 303,
+            #  207, 208, 179, 180, 183, 184,
+            # 305, 233, 290, 218, 219, 419, 172,
+            #  119, 120, 236, 288, 128, 129, 134, 71, 72, 383, 382
               ]
 
 
