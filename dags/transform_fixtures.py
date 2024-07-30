@@ -49,6 +49,7 @@ def find_fixtures_c1(in_table: pd.DataFrame):
     gv.task_log.info(in_table)
 
     df = in_table
+    df = df.head(1000)
     output_df = apply_filtering_logic(df)
     
     gv.task_log.info(output_df)
@@ -63,6 +64,7 @@ def find_fixtures_c2(in_table: pd.DataFrame):
     gv.task_log.info(in_table)
 
     df = in_table
+    df = df.head(1000)
 
     output_df = won_last_5_matches(df)
     

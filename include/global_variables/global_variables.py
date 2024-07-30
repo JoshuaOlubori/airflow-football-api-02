@@ -27,7 +27,7 @@ FIXTURES_DATA_PATH = (
 )
 
 FIXTURES_DATA_FOLDER = (
-    f"{os.environ['AIRFLOW_HOME']}/include/fixtures_data/"
+    f"{os.environ['AIRFLOW_HOME']}/include/fixtures_data_test/"
 )
 
 RESULTS_DATA_PATH = (
