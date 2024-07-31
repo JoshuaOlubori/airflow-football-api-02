@@ -7,7 +7,7 @@
 *Activate Port*
 
 1. Run the following commands in the terminal in order:
-    - `curl -sSL (link unavailable) | sudo bash -s -- v1.28.0`
+    - `curl -sSL install.astronomer.io | sudo bash -s -- v1.28.0`
     - `sudo chmod -R 777 include/`
 2. Start or restart Astro:
     -  `astro dev start`
