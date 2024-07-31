@@ -5,6 +5,18 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 tasks:
-  - init: pip install -r requirements.txt
+  - before: echo "Welcome to your workspace, Mr. Akindele! Installing requirements and dependecies ..."
+    init: pip install -r requirements.txt  && curl -sSL install.astronomer.io | sudo bash -s -- v1.28.0
+    command: astro dev restart 
+
+ports:
+ - port: 8501
+   onOpen: open-browser
+   visibility: public
+
+
+
+          
+          
 
 
