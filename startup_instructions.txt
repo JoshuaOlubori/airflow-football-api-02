@@ -1,0 +1,5 @@
+1. curl -sSL install.astronomer.io | sudo bash -s -- v1.28.0
+2. sudo chmod -R 777 include/
+3. astro dev start
+OR IF ALREADY STARTED
+4. astro dev restart
