@@ -1,5 +1,13 @@
-1. curl -sSL install.astronomer.io | sudo bash -s -- v1.28.0
-2. sudo chmod -R 777 include/
-3. astro dev start
-OR IF ALREADY STARTED
-4. astro dev restart
+1. Go to port 8501 to view fixtures
+    - If port is active, ignore the following instructions
+    - If port is INACTIVE, run the following commands in the terminal in order
+        1. curl -sSL install.astronomer.io | sudo bash -s -- v1.28.0
+        2. sudo chmod -R 777 include/
+        3. astro dev start
+        OR IF ALREADY STARTED
+        4. astro dev restart
+        5. Go to port 8080
+        6. If prompted login with user name and password of "admin"
+        7. Toggle all DAGS. Active dags have a blue background
+        8. Trigger the "start DAG" by going to the "Action" column under the "a_start" DAG, clicking the "..." button and selecting "Trigger DAG"
+        9. Wait 10 minutes or longer, then view port 8501 to see fixtures
