@@ -36,7 +36,7 @@ def concatenate_csvs(root_dir, output_file):
 # DAG #
 # --- #
 @dag(
-    start_date=datetime(2023, 1, 1),
+    start_date=datetime(2024, 1, 1),
     # this DAG runs as soon as the "start" Dataset has been produced to
     schedule=[gv.DS_START],
     catchup=False,
@@ -50,7 +50,7 @@ def b_extraction():
             task_id = "fetch_data",
             python_callable= api.fetch_data,
             op_kwargs = {
-                "chosen_season": "2023"
+                "chosen_season": "2024"
             }
         )
 

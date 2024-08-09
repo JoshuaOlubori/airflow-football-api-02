@@ -19,7 +19,7 @@
 # # total_calls = len(unique_league_ids)
 # # current_call = 0
 
-# # def fetch_data(chosen_season="2023"):
+# # def fetch_data(chosen_season="2024"):
 # #     global current_call
 # #     for league_id in unique_league_ids:
 # #         try:
@@ -101,7 +101,7 @@
 # total_calls = len(unique_league_ids)
 # current_call = 0
 
-# def fetch_data(chosen_season="2023"):
+# def fetch_data(chosen_season="2024"):
 #     global current_call
 #     for league_id in unique_league_ids:
 #         try:
@@ -224,7 +224,7 @@
 # total_calls = len(unique_league_ids)
 # current_call = 0
 
-# def fetch_data(chosen_season="2023"):
+# def fetch_data(chosen_season="2024"):
 #     global current_call
 
 #     try:
@@ -354,7 +354,7 @@ headers = {
 total_calls = len(unique_league_ids)
 current_call = 0
 
-# def fetch_data(chosen_season="2023"):
+# def fetch_data(chosen_season="2024"):
 #     global current_call
 
 #     try:
@@ -452,7 +452,7 @@ current_call = 0
 #     finally:
 #         # Sleep for 3 seconds before the next API call
 #         sleep(3)
-def fetch_data(chosen_season="2023"):
+def fetch_data(chosen_season="2024"):
     global current_call
 
     try:
@@ -463,7 +463,8 @@ def fetch_data(chosen_season="2023"):
             response.raise_for_status()
 
             data = response.json()['response']
-            data = data[:10]
+            # reduce data for testing
+            # data = data[:10]  
             gv.task_log.info(f"Received data for league ID: {league_id}")
 
             for fixture in data:

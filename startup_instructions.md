@@ -20,7 +20,7 @@
 3. Toggle all DAGs (active DAGs have a blue background).
 4. Trigger the "start DAG" by:
     - Going to the "Action" column under the "a_start" DAG.
-    - Clicking the "..." button.
+    - Clicking the "Play Icon" button.
     - Selecting "Trigger DAG".
 
 *Verify Fixtures*

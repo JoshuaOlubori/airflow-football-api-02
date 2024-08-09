@@ -1,0 +1,11 @@
+date,season,league_name,country,home_team,home_team_score,away_team_score,away_team,match_status,home_corners,away_corners,home_yellow_cards,away_yellow_cards,home_red_cards,away_red_cards
+2024-04-23T00:00:00+00:00,2024,Serie B,Brazil,Vila Nova,2,0,Guarani Campinas,Match Finished,5,7,2,4,0,1
+2024-04-21T21:00:00+00:00,2024,Serie B,Brazil,Ponte Preta,1,1,Coritiba,Match Finished,3,7,3,3,0,0
+2024-04-19T22:00:00+00:00,2024,Serie B,Brazil,Botafogo SP,1,1,America Mineiro,Match Finished,3,1,2,4,,
+2024-04-19T22:00:00+00:00,2024,Serie B,Brazil,Novorizontino,2,1,CRB,Match Finished,4,5,0,5,,
+2024-04-20T19:30:00+00:00,2024,Serie B,Brazil,Santos,2,0,Paysandu,Match Finished,1,1,2,3,,
+2024-04-20T18:30:00+00:00,2024,Serie B,Brazil,Chapecoense-sc,3,1,Ituano,Match Finished,3,3,2,1,,
+2024-04-24T00:00:00+00:00,2024,Serie B,Brazil,Brusque,3,1,Mirassol,Match Finished,2,9,3,2,,
+2024-04-20T00:00:00+00:00,2024,Serie B,Brazil,Operario-PR,1,0,Avai,Match Finished,5,2,1,1,,
+2024-04-20T20:00:00+00:00,2024,Serie B,Brazil,Amazonas,2,3,Sport Recife,Match Finished,6,4,2,3,,
+2024-04-20T21:00:00+00:00,2024,Serie B,Brazil,Ceara,1,1,Goias,Match Finished,14,3,2,5,,

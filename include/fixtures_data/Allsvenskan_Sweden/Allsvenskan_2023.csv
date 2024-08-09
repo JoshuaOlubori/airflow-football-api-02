@@ -1,0 +1,11 @@
+date,season,league_name,country,home_team,home_team_score,away_team_score,away_team,match_status,home_corners,away_corners,home_yellow_cards,away_yellow_cards,home_red_cards,away_red_cards
+2023-04-01T13:00:00+00:00,2023,Allsvenskan,Sweden,Malmo FF,1,0,kalmar FF,Match Finished,12,1,1,1,,
+2023-04-01T15:30:00+00:00,2023,Allsvenskan,Sweden,Djurgardens IF,3,1,IF Brommapojkarna,Match Finished,12,3,2,1,,
+2023-04-02T13:00:00+00:00,2023,Allsvenskan,Sweden,Hammarby FF,3,1,Degerfors IF,Match Finished,8,7,0,2,,
+2023-04-02T13:00:00+00:00,2023,Allsvenskan,Sweden,IFK Norrkoping,1,1,Sirius,Match Finished,7,7,2,3,,
+2023-04-02T15:30:00+00:00,2023,Allsvenskan,Sweden,IFK Goteborg,0,1,IFK Varnamo,Match Finished,9,7,2,1,,
+2023-04-02T15:30:00+00:00,2023,Allsvenskan,Sweden,Halmstad,2,1,AIK stockholm,Match Finished,4,8,2,1,,
+2023-04-03T17:00:00+00:00,2023,Allsvenskan,Sweden,Mjallby AIF,2,2,Varbergs BoIS FC,Match Finished,8,5,2,3,,
+2023-04-03T17:10:00+00:00,2023,Allsvenskan,Sweden,IF elfsborg,0,2,BK Hacken,Match Finished,8,3,1,1,,
+2023-04-08T13:00:00+00:00,2023,Allsvenskan,Sweden,IF Brommapojkarna,1,2,Malmo FF,Match Finished,3,11,1,2,,
+2023-04-08T13:00:00+00:00,2023,Allsvenskan,Sweden,Degerfors IF,3,1,Halmstad,Match Finished,10,7,0,1,,

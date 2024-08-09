@@ -26,7 +26,7 @@ from include.custom_operators.minio import (
 
 
 @dag(
-    start_date=datetime(2023, 1, 1),
+    start_date=datetime(2024, 1, 1),
     # this DAG runs as soon as the fixtures data is ready in MinIO
     schedule=[gv.DS_FIXTURES_DATA_MINIO],
     catchup=False,

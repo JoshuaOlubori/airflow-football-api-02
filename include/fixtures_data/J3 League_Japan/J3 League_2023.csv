@@ -1,0 +1,11 @@
+date,season,league_name,country,home_team,home_team_score,away_team_score,away_team,match_status,home_corners,away_corners,home_yellow_cards,away_yellow_cards,home_red_cards,away_red_cards
+2023-03-11T04:00:00+00:00,2023,J3 League,Japan,YSCC,1,3,Gainare Tottori,Match Finished,,,,,,
+2023-03-04T05:00:00+00:00,2023,J3 League,Japan,Sagamihara,2,3,Gainare Tottori,Match Finished,,,,,,
+2023-03-05T04:00:00+00:00,2023,J3 League,Japan,Nara Club,0,2,Matsumoto Yamaga,Match Finished,,,,,,
+2023-03-05T05:00:00+00:00,2023,J3 League,Japan,Kamatamare Sanuki,1,0,Azul Claro Numazu,Match Finished,,,,,,
+2023-03-05T06:00:00+00:00,2023,J3 League,Japan,Ehime FC,1,5,Grulla Morioka,Match Finished,,,,,,
+2023-03-05T04:05:00+00:00,2023,J3 League,Japan,Imabari,1,0,Fukushima United,Match Finished,,,,,,
+2023-03-05T05:00:00+00:00,2023,J3 League,Japan,Kitakyushu,1,1,FC Gifu,Match Finished,,,,,,
+2023-03-04T06:00:00+00:00,2023,J3 League,Japan,Kagoshima United,2,1,Osaka,Match Finished,,,,,,
+2023-03-04T06:00:00+00:00,2023,J3 League,Japan,FC Ryukyu,1,0,Vanraure Hachinohe,Match Finished,,,,,,
+2023-03-05T04:00:00+00:00,2023,J3 League,Japan,Tegevajaro Miyazaki,0,2,Parceiro Nagano,Match Finished,,,,,,

@@ -1,0 +1,11 @@
+date,season,league_name,country,home_team,home_team_score,away_team_score,away_team,match_status,home_corners,away_corners,home_yellow_cards,away_yellow_cards,home_red_cards,away_red_cards
+2024-04-06T12:00:00+00:00,2024,Veikkausliiga,Finland,IF Gnistan,2,1,Inter Turku,Match Finished,,,,,,
+2024-04-06T14:00:00+00:00,2024,Veikkausliiga,Finland,Ilves Tampere,0,0,FC Lahti,Match Finished,,,,,,
+2024-04-06T14:00:00+00:00,2024,Veikkausliiga,Finland,SJK,2,1,AC oulu,Match Finished,,,,,,
+2024-04-06T14:00:00+00:00,2024,Veikkausliiga,Finland,IFK Mariehamn,3,2,EIF,Match Finished,,,,,,
+2024-04-06T14:00:00+00:00,2024,Veikkausliiga,Finland,haka,1,2,vaasa PS,Match Finished,,,,,,
+2024-04-06T16:00:00+00:00,2024,Veikkausliiga,Finland,KuPS,3,1,HJK helsinki,Match Finished,,,,,,
+2024-04-11T15:00:00+00:00,2024,Veikkausliiga,Finland,HJK helsinki,4,0,FC Lahti,Match Finished,,,,,,
+2024-04-12T15:00:00+00:00,2024,Veikkausliiga,Finland,haka,2,1,EIF,Match Finished,,,,,,
+2024-04-12T16:00:00+00:00,2024,Veikkausliiga,Finland,vaasa PS,1,1,SJK,Match Finished,,,,,,
+2024-04-12T17:00:00+00:00,2024,Veikkausliiga,Finland,Inter Turku,3,3,AC oulu,Match Finished,,,,,,

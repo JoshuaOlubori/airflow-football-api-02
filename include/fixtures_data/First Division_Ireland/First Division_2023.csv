@@ -1,0 +1,11 @@
+date,season,league_name,country,home_team,home_team_score,away_team_score,away_team,match_status,home_corners,away_corners,home_yellow_cards,away_yellow_cards,home_red_cards,away_red_cards
+2023-02-17T19:45:00+00:00,2023,First Division,Ireland,Kerry,0,2,Cobh Ramblers,Match Finished,,,,,,
+2023-02-17T19:45:00+00:00,2023,First Division,Ireland,Treaty United,0,1,Bray Wanderers,Match Finished,,,,,,
+2023-02-17T19:45:00+00:00,2023,First Division,Ireland,Wexford,0,3,Waterford,Match Finished,,,,,,
+2023-02-17T20:00:00+00:00,2023,First Division,Ireland,Finn Harps,1,2,Galway United,Match Finished,,,,,,
+2023-02-18T19:30:00+00:00,2023,First Division,Ireland,Longford Town,1,3,Athlone Town,Match Finished,,,,,,
+2023-02-24T19:45:00+00:00,2023,First Division,Ireland,Athlone Town,3,1,Finn Harps,Match Finished,,,,,,
+2023-02-24T19:45:00+00:00,2023,First Division,Ireland,Bray Wanderers,3,1,Kerry,Match Finished,,,,,,
+2023-02-24T19:45:00+00:00,2023,First Division,Ireland,Cobh Ramblers,2,1,Wexford,Match Finished,,,,,,
+2023-02-24T19:45:00+00:00,2023,First Division,Ireland,Galway United,1,0,Treaty United,Match Finished,,,,,,
+2023-02-24T19:45:00+00:00,2023,First Division,Ireland,Waterford,1,1,Longford Town,Match Finished,,,,,,

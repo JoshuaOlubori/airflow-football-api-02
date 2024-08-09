@@ -22,7 +22,7 @@ from include.custom_operators.minio import LocalFilesystemToMinIOOperator
 
 
 @dag(
-    start_date=datetime(2023, 1, 1),
+    start_date=datetime(2024, 1, 1),
     # this DAG runs as soon as the "start" Dataset has been produced to
     schedule=[gv.DS_INGEST],
     catchup=False,

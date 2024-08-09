@@ -1,0 +1,11 @@
+date,season,league_name,country,home_team,home_team_score,away_team_score,away_team,match_status,home_corners,away_corners,home_yellow_cards,away_yellow_cards,home_red_cards,away_red_cards
+2023-04-15T11:35:00+00:00,2023,Super League,China,Dalian Aerbin,2,1,Nantong Zhiyun,Match Finished,2,7,1,1,,
+2023-04-15T11:35:00+00:00,2023,Super League,China,Wuhan Three Towns,0,2,SHANGHAI SIPG,Match Finished,5,4,1,2,,
+2023-04-15T11:35:00+00:00,2023,Super League,China,Hangzhou Greentown,0,2,Changchun Yatai,Match Finished,9,5,1,0,,
+2023-04-15T12:05:00+00:00,2023,Super League,China,Beijing Guoan,1,1,Meizhou Kejia,Match Finished,8,2,2,5,,
+2023-04-16T11:35:00+00:00,2023,Super League,China,Henan Jianye,1,1,Chengdu Better City,Match Finished,2,5,3,1,,
+2023-04-16T11:35:00+00:00,2023,Super League,China,Tianjin Teda,1,1,Shijiazhuang Y. J.,Match Finished,7,3,3,1,,
+2023-04-16T11:35:00+00:00,2023,Super League,China,Shanghai Shenhua,1,0,Shandong Luneng,Match Finished,4,8,1,2,,
+2023-04-16T11:35:00+00:00,2023,Super League,China,Shenzhen Ruby FC,2,1,Qingdao Jonoon,Match Finished,4,6,3,2,,
+2023-04-20T11:35:00+00:00,2023,Super League,China,Wuhan Three Towns,1,1,Beijing Guoan,Match Finished,4,8,3,2,,
+2023-04-21T09:30:00+00:00,2023,Super League,China,Tianjin Teda,2,1,Hangzhou Greentown,Match Finished,5,2,0,2,1,0

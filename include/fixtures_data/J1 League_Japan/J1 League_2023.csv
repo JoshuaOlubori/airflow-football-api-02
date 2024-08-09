@@ -1,0 +1,11 @@
+date,season,league_name,country,home_team,home_team_score,away_team_score,away_team,match_status,home_corners,away_corners,home_yellow_cards,away_yellow_cards,home_red_cards,away_red_cards
+2023-02-17T10:00:00+00:00,2023,J1 League,Japan,Kawasaki Frontale,1,2,Yokohama F. Marinos,Match Finished,5,4,1,1,1,0
+2023-02-18T06:00:00+00:00,2023,J1 League,Japan,Kashiwa Reysol,2,2,Gamba Osaka,Match Finished,5,3,2,3,,
+2023-02-18T05:00:00+00:00,2023,J1 League,Japan,FC Tokyo,2,0,Urawa,Match Finished,2,0,1,2,,
+2023-02-18T05:00:00+00:00,2023,J1 League,Japan,Yokohama FC,0,1,Nagoya Grampus,Match Finished,9,3,4,1,,
+2023-02-18T05:00:00+00:00,2023,J1 League,Japan,Kyoto Sanga,0,2,Kashima,Match Finished,3,4,2,2,,
+2023-02-18T05:00:00+00:00,2023,J1 League,Japan,Cerezo Osaka,2,2,Albirex Niigata,Match Finished,6,5,1,0,,
+2023-02-18T05:00:00+00:00,2023,J1 League,Japan,Vissel Kobe,1,0,Avispa Fukuoka,Match Finished,6,3,1,2,,
+2023-02-18T05:00:00+00:00,2023,J1 League,Japan,Sanfrecce Hiroshima,0,0,Consadole Sapporo,Match Finished,12,0,2,1,,
+2023-02-18T06:00:00+00:00,2023,J1 League,Japan,Sagan Tosu,1,5,Shonan Bellmare,Match Finished,3,5,1,1,,
+2023-02-24T10:00:00+00:00,2023,J1 League,Japan,Shonan Bellmare,2,2,Yokohama FC,Match Finished,9,9,2,0,,

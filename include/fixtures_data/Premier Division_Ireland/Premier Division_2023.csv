@@ -1,0 +1,11 @@
+date,season,league_name,country,home_team,home_team_score,away_team_score,away_team,match_status,home_corners,away_corners,home_yellow_cards,away_yellow_cards,home_red_cards,away_red_cards
+2023-02-17T19:45:00+00:00,2023,Premier Division,Ireland,Cork City,1,2,Bohemians,Match Finished,,,,,,
+2023-02-17T19:45:00+00:00,2023,Premier Division,Ireland,Dundalk,1,1,UCD,Match Finished,,,,,,
+2023-02-17T19:45:00+00:00,2023,Premier Division,Ireland,Shelbourne,0,0,Drogheda United,Match Finished,,,,,,
+2023-02-17T19:45:00+00:00,2023,Premier Division,Ireland,St Patrick's Athl.,1,1,Derry City,Match Finished,,,,,,
+2023-02-18T19:45:00+00:00,2023,Premier Division,Ireland,Sligo Rovers,1,1,Shamrock Rovers,Match Finished,,,,,,
+2023-02-24T19:45:00+00:00,2023,Premier Division,Ireland,Bohemians,2,1,Dundalk,Match Finished,,,,,,
+2023-02-24T19:45:00+00:00,2023,Premier Division,Ireland,Derry City,2,0,Cork City,Match Finished,,,,,,
+2023-02-24T19:45:00+00:00,2023,Premier Division,Ireland,Drogheda United,1,1,Shamrock Rovers,Match Finished,,,,,,
+2023-02-24T19:45:00+00:00,2023,Premier Division,Ireland,St Patrick's Athl.,1,0,Shelbourne,Match Finished,,,,,,
+2023-02-24T19:45:00+00:00,2023,Premier Division,Ireland,UCD,2,3,Sligo Rovers,Match Finished,,,,,,

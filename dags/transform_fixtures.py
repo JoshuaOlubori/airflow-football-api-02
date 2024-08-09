@@ -142,7 +142,7 @@ def find_fixtures(in_table: pd.DataFrame):
 
 
 @dag(
-    start_date=datetime(2023, 1, 1),
+    start_date=datetime(2024, 1, 1),
     schedule=[gv.DS_DUCKDB_IN_FIXTURES],
     catchup=False,
     default_args=gv.default_args,

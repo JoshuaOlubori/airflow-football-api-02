@@ -63,20 +63,13 @@ DS_INGEST = Dataset("ingest")
 
 API_ENDPOINT_1 = "https://api-football-v1.p.rapidapi.com/v3/fixtures"
 API_ENDPOINT_2 = "https://api-football-v1.p.rapidapi.com/v3/fixtures/statistics"
-API_KEY = "8feeed635dmshbab9080dc4f248bp112d75jsn9661eab3597b"
+API_KEY = "55ab8bcb28msh4d904b12081603fp1d7acejsn623e4694b2e8"
 API_HOST = "api-football-v1.p.rapidapi.com"
 
 # LEAGUE IDS
-LEAGUE_IDS = [39, 106,
-            #   41, 42, 43, 50, 51, 59, 60,
-            #  78, 79, 83, 84, 85, 86, 61, 62, 135, 136,
-            #  88, 89, 106, 107,  144, 283, 94, 95, 96,
-            #  140, 141, 142, 876, 435, 436, 210, 318, 345,
-            #  203, 204, 271, 272, 235, 373, 307, 308, 301, 303,
-            #  207, 208, 179, 180, 183, 184,
-            # 305, 233, 290, 218, 219, 419, 172,
-            #  119, 120, 236, 288, 128, 129, 134, 71, 72, 383, 382
-              ]
+LEAGUE_IDS = [129, 128, 71, 72, 244, 169, 170, 245,
+              357, 358, 98, 99, 100, 103, 104, 113, 114
+            ]
 
 
 

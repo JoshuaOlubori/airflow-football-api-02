@@ -1,0 +1,11 @@
+date,season,league_name,country,home_team,home_team_score,away_team_score,away_team,match_status,home_corners,away_corners,home_yellow_cards,away_yellow_cards,home_red_cards,away_red_cards
+2024-04-12T16:00:00+00:00,2024,Ykkönen,Finland,Atlantis,2,0,Vaajakoski,Match Finished,,,,,,
+2024-04-13T12:30:00+00:00,2024,Ykkönen,Finland,KPV-j,2,1,Rops,Match Finished,,,,,,
+2024-04-13T13:00:00+00:00,2024,Ykkönen,Finland,EPS,0,1,OLS,Match Finished,,,,,,
+2024-04-13T13:00:00+00:00,2024,Ykkönen,Finland,PKKU,0,3,JJK,Match Finished,,,,,,
+2024-04-13T14:00:00+00:00,2024,Ykkönen,Finland,VIFK,0,4,KuPS Akatemia,Match Finished,,,,,,
+2024-04-13T16:00:00+00:00,2024,Ykkönen,Finland,Klubi-04,4,1,FC jazz,Match Finished,,,,,,
+2024-04-20T13:00:00+00:00,2024,Ykkönen,Finland,KPV-j,3,1,Vaajakoski,Match Finished,,,,,,
+2024-04-20T13:00:00+00:00,2024,Ykkönen,Finland,Rops,2,3,JJK,Match Finished,,,,,,
+2024-04-20T13:00:00+00:00,2024,Ykkönen,Finland,EPS,2,0,VIFK,Match Finished,,,,,,
+2024-04-21T13:00:00+00:00,2024,Ykkönen,Finland,OLS,1,2,Atlantis,Match Finished,,,,,,

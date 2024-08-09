@@ -27,7 +27,7 @@ from include.global_variables import global_variables as gv
 
 
 @dag(
-    start_date=datetime(2023, 1, 1),
+    start_date=datetime(2024, 1, 1),
     # after being unpaused this DAG will run once, afterwards it can be run
     # manually with the play button in the Airflow UI
     schedule="@daily",

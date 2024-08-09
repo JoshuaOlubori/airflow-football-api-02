@@ -1,0 +1,11 @@
+date,season,league_name,country,home_team,home_team_score,away_team_score,away_team,match_status,home_corners,away_corners,home_yellow_cards,away_yellow_cards,home_red_cards,away_red_cards
+2023-04-14T15:00:00+00:00,2023,Ykkönen,Finland,HIFK Elsinki,0,2,IF Gnistan,Match Finished,,,,,,
+2023-04-14T15:30:00+00:00,2023,Ykkönen,Finland,SJK Akatemia,1,0,FF Jaro,Match Finished,,,,,,
+2023-04-15T13:00:00+00:00,2023,Ykkönen,Finland,SalPa,2,1,JäPS,Match Finished,,,,,,
+2023-04-15T13:00:00+00:00,2023,Ykkönen,Finland,KPV-j,0,0,JJK,Match Finished,,,,,,
+2023-04-15T13:00:00+00:00,2023,Ykkönen,Finland,EIF,2,1,Turku PS,Match Finished,,,,,,
+2023-04-16T15:00:00+00:00,2023,Ykkönen,Finland,KäPa,2,0,MP,Match Finished,,,,,,
+2023-04-21T15:30:00+00:00,2023,Ykkönen,Finland,IF Gnistan,2,0,JJK,Match Finished,,,,,,
+2023-04-21T15:30:00+00:00,2023,Ykkönen,Finland,HIFK Elsinki,0,2,MP,Match Finished,,,,,,
+2023-04-22T13:00:00+00:00,2023,Ykkönen,Finland,KPV-j,0,0,Turku PS,Match Finished,,,,,,
+2023-04-22T13:00:00+00:00,2023,Ykkönen,Finland,JäPS,1,0,EIF,Match Finished,,,,,,
