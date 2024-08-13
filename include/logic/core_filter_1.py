@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import math
 from include.global_variables import global_variables as gv
 
 def core_filter_1(df):
@@ -34,12 +35,30 @@ def core_filter_1(df):
                 return True
             else:
                 return False
+        
+                # Function to convert missing values to "null"
+        def convert_missing_values_to_null(match):
+            for key, value in match.items():
+                if pd.isna(value) or (isinstance(value, float) and math.isnan(value)):
+                    match[key] = "null"
+            return match
 
         # Find all match containers
         match_containers = df.to_dict('records')
+        # Extract 'match_status' values from each dictionary
+        
+        match_containers = [convert_missing_values_to_null(match) for match in match_containers]
+
+        # Get unique values using set
+        
+        gv.task_log.info("FILLING NA WITH 0")
+        df = df.fillna(0)
+        #gv.task_log.info(df[df['match_status'] == "Match Postponed"].iloc[0])
 
         # Loop through each match container
         for match in match_containers:
+            
+
             home_team = match['home_team']
             away_team = match['away_team']
 
@@ -71,13 +90,32 @@ def core_filter_1(df):
             h = last_5_away_team_fixtures[condition_2]
 
             # Check if count of common opponents fixtures is greater than 2
-            if len(common_opponents) > 2:
-                if team_won_3_games_or_more(home_team, g) or team_won_3_games_or_more(away_team, h):
-                    won_3_games_or_more.append(1)
-                else:
-                    won_3_games_or_more.append(0)
-            else:
+            if match['match_status'] != "Match Finished":
                 won_3_games_or_more.append(0)
+            else:
+                if len(common_opponents) > 2:
+                    if team_won_3_games_or_more(home_team, g) or team_won_3_games_or_more(away_team, h):
+                        won_3_games_or_more.append(2)
+                    else:
+                        won_3_games_or_more.append(1)
+                else:
+            # Case where common_opponents length is not greater than 2
+                    won_3_games_or_more.append(1)
+
+            
+                
+
+            
+            # if (match['match_status'] == "Match Postponed") | (match['match_status'] == "Not Started") | (match['match_status'] == "Time to be defined"):
+            #     #gv.task_log.info(f"MATCH VALUES ARE {match}")
+            #     won_3_games_or_more.append(0)
+            # elif len(common_opponents) > 2:
+            #     if team_won_3_games_or_more(home_team, g) or team_won_3_games_or_more(away_team, h):
+            #         won_3_games_or_more.append(2)
+            #     else:
+            #         won_3_games_or_more.append(1)
+            # else:
+            #     won_3_games_or_more.append(0)
 
         # Add the new column to the original dataframe if the length is equal
         try:
@@ -86,6 +124,7 @@ def core_filter_1(df):
                 gv.task_log.info("New column 'won_3_games_or_more' added to the dataframe.")
             else:
                 gv.task_log.warning("Length of 'won_3_games_or_more' list does not match the length of the dataframe.")
+                gv.task_log.info(f"{len(df)} vs {len(won_3_games_or_more)}")
         except Exception as e:
             gv.task_log.warning(f"Error adding new column: {e}")
 

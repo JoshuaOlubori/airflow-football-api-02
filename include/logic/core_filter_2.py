@@ -1,4 +1,5 @@
 import pandas as pd
+import math
 from include.global_variables import global_variables as gv
 
 def core_filter_2(df):
@@ -29,8 +30,24 @@ def core_filter_2(df):
             else:
                 return False
 
+        
+
+        def convert_missing_values_to_null(match):
+            for key, value in match.items():
+                if pd.isna(value) or (isinstance(value, float) and math.isnan(value)):
+                    match[key] = "null"
+            return match
+
         # Find all match containers
         match_containers = df.to_dict('records')
+        # Extract 'match_status' values from each dictionary
+        
+        match_containers = [convert_missing_values_to_null(match) for match in match_containers]
+
+        # Get unique values using set
+        
+        #gv.task_log.info("FILLING NA WITH 0")
+        df = df.fillna(0)
 
         # Loop through each match container
         for match in match_containers:
@@ -42,10 +59,15 @@ def core_filter_2(df):
             last_5_away_team_fixtures = df[(df['home_team'] == away_team) | (df['away_team'] == away_team)].sort_values(by='date', ascending=False).head(5)
 
             # Check if either team has won all their last 5 games
-            if team_won_all_last_5_games(home_team, last_5_home_team_fixtures) or team_won_all_last_5_games(away_team, last_5_away_team_fixtures):
-                won_all_last_5_games.append(1)
-            else:
+            if match['match_status'] == "Match Finished":
+                gv.task_log.info(f"MATCH VALUES ARE {match}")
                 won_all_last_5_games.append(0)
+            else:
+        # If the match is finished, check if either team has won all their last 5 games
+                if team_won_all_last_5_games(home_team, last_5_home_team_fixtures) or team_won_all_last_5_games(away_team, last_5_away_team_fixtures):
+                    won_all_last_5_games.append(2)
+                else:
+                    won_all_last_5_games.append(1)
 
 
         # Add the new column to the original dataframe if the length is equal

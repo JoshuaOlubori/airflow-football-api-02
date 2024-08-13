@@ -4,7 +4,7 @@ from include.global_variables import global_variables as gv
 def df_cleanup_1(df):
 
     df = df.drop_duplicates()
-    df = df[df["match_status"] == "Match Finished"]
+    # df = df[df["match_status"] == "Match Finished"]
 
     df['date'] = pd.to_datetime(df['date'], utc=True)
 

@@ -6,6 +6,6 @@ def apply_case_when_logic(df):
     ]
     gv.task_log.info(f"COLUMNS ARE {df.columns}")
     for col in columns_to_process:
-        df[col] = df[col].apply(lambda x: "T" if x == 1 else ("F" if x == 0 else None))
+        df[col] = df[col].apply(lambda x: "T" if x == 2 else ("F" if x == 1 else None))
     
     return df
