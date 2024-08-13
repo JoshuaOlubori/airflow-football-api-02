@@ -67,11 +67,10 @@ API_KEY = "55ab8bcb28msh4d904b12081603fp1d7acejsn623e4694b2e8"
 API_HOST = "api-football-v1.p.rapidapi.com"
 
 # LEAGUE IDS
-LEAGUE_IDS = [129, 128, 71, 72, 244, 169, 170, 245,
-              357, 358, 98, 99, 100, 103, 104, 113, 114
+LEAGUE_IDS = [128, 98
             ]
 
-
+CURRENT_SEASON = 2024
 
 # get Airflow task logger
 task_log = logging.getLogger("airflow.task")

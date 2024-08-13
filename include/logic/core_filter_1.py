@@ -4,8 +4,9 @@ from include.global_variables import global_variables as gv
 
 def core_filter_1(df):
     try:
+        gv.task_log.info(f"BEFORE CORE FILTER 1, COLUMNS ARE {df.columns}")
         gv.task_log.info("Applying core filtering logic 1...  This would take some time.\n")
-
+        
         # Initialize an empty list to store the column values
         won_3_games_or_more = []
 
@@ -90,6 +91,8 @@ def core_filter_1(df):
 
     except Exception as e:
         gv.task_log.warning(f"Error during processing: {e}")
+
+    gv.task_log.info(f"AFTER CORE FILTER 1, COLUMNS ARE {df.columns}")
     return df
 
 

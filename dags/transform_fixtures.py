@@ -69,8 +69,8 @@ def find_fixtures(in_table: pd.DataFrame):
     # Apply the functions using pipe for method chaining
     output_df = (df
                .pipe(dfc.df_cleanup_1)
-               .pipe(cf1.core_filter_1_optimised)
-               .pipe(cf2.core_filter_2_optimised)
+               .pipe(cf1.core_filter_1)
+               .pipe(cf2.core_filter_2)
                .pipe(gon.both_teams_scored_or_not)
                .pipe(oug.add_draw_columns)
                .pipe(oug.add_over_columns)

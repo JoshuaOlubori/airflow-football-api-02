@@ -13,6 +13,8 @@ def df_cleanup_1(df):
     
     df['away_team_score'] = pd.to_numeric(
         df['away_team_score'], errors='coerce').astype('Int64')
+    
+    df = df[df['season'] == gv.CURRENT_SEASON]
 
     gv.task_log.info("Clean up successful.\n")
     # gv.task_log.info("Import successful for all files.\n")

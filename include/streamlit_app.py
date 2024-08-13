@@ -39,7 +39,7 @@ def get_fixtures(db=duck_db_instance_path):
 
     cursor = duckdb.connect(db)
     fixtures_data = cursor.execute(
-        f"""SELECT * FROM reporting_table;"""
+        f"""SELECT * FROM reporting_table ORDER BY league_name, date DESC;"""
     ).fetchall()
 
     fixtures_data_col_names = cursor.execute(
@@ -102,15 +102,30 @@ st.title("Fixtures Transformation Results")
 
 st.markdown(f"Hello {APP_USER} :wave: Welcome to your Streamlit App! :blush:")
 # Get the DataFrame
+# Filter options
+st.sidebar.header("Filter Options")
 
-# Display the DataFrame as a table in Streamlit
-# st.dataframe(fixtures_result_table_1)
+# Create selectboxes for filtering criteria
+filter_won_3_games_or_more = st.sidebar.selectbox(
+    "Teams that won 3 or more games against common opponents in their last 5 games, in the current season:",
+    options=["All", "T", "F"],
+    index=0  # Default to "All"
+)
 
+
+filter_team_won_all_last_5_games = st.sidebar.selectbox(
+    "Teams that won all last 5 games (In addition to the above filter):",
+    options=["All", "T", "F"],
+    index=0  # Default to "All"
+)
+
+# Apply filters
+filtered_df = fixtures_result_table
+if filter_won_3_games_or_more != "All":
+    filtered_df = filtered_df[filtered_df["won_3_games_or_more"] == filter_won_3_games_or_more]
+if filter_team_won_all_last_5_games != "All":
+    filtered_df = filtered_df[filtered_df["team_won_all_last_5_games"] == filter_team_won_all_last_5_games]
+
+# Display the filtered DataFrame
 with st.expander("All fixtures"):
-    st.dataframe(fixtures_result_table)  # Optional styling
-
-# with st.expander("Section 2: Fixtures in which either teams have won all 5 games in their last 5 league matches"):
-#     st.dataframe(fixtures_result_table_2)
-
-
-
+    st.dataframe(filtered_df)

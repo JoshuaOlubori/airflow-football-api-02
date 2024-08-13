@@ -48,7 +48,7 @@ def concatenate_csvs(root_dir, output_file):
 def b_extraction():
     api_fetcher = PythonOperator(
             task_id = "fetch_data",
-            python_callable= api.fetch_data,
+            python_callable= api.run,
             op_kwargs = {
                 "chosen_season": "2024"
             }
